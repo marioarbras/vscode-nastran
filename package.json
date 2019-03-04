@@ -5,7 +5,7 @@
   "version": "0.0.3",
   "publisher": "marioarbras",
   "license": "MIT",
-  "icon": "images/icon.png",
+  "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.31.0"
   },
