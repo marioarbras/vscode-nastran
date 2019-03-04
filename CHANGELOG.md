@@ -3,9 +3,20 @@ All notable changes to the "vscode-nastran" extension will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+### Added
+- More aeroelastic bulk data entries
+
+## [0.0.7]
+### Added
+- Colors in alternate columns
+
+### Fixed
+- Regular expressions for line continuation and some bulk data entries
+
 ## [0.0.2]
 ### Added
-- Image logo
+- Logo
 
 ### Changed
 - This CHANGELOG file
