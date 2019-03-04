@@ -58,7 +58,7 @@
     },
     {
       "name": "keyword.control.continuation.nastran",
-      "begin": "(\\+|\\+\\D\\w*)$",
+      "begin": "(\\+|\\+[a-zA-Z]\\w*)[\\t ]*$",
       "end": "^\\1"
     },
     {

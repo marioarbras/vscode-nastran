@@ -25,7 +25,7 @@ patterns:
     2:
       name: variable.parameter.nastran
 - name: keyword.control.continuation.nastran
-  begin: (\+|\+\D\w*)$
+  begin: (\+|\+[a-zA-Z]\w*)[\t ]*$
   end: ^\1
 - match: (?<=.{8})(.{8}).{8}
   captures:
