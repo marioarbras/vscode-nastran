@@ -7,12 +7,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Added
 - More aeroelastic bulk data entries
 
+## [0.1.2]
+### Fixed
+- New regex to color alternate columns
+
 ## [0.1.0]
 ### Added
 - Colors in alternate columns
 
 ### Fixed
-- Regular expressions for line continuation and some bulk data entries
+- Regex for line continuation and some bulk data entries
 
 ## [0.0.2]
 ### Added

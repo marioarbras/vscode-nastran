@@ -27,7 +27,7 @@ patterns:
 - name: keyword.control.continuation.nastran
   begin: (\+|\+[a-zA-Z]\w*)[\t ]*$
   end: ^\1
-- match: (?<=.{8})(.{8}).{8}
+- match: (?<=.{8})(?:(.{8}).{0,8})
   captures:
     1:
       name: constant.numeric.nastran
