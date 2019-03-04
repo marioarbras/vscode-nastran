@@ -14,7 +14,7 @@ patterns:
     2:
       name: variable.parameter.nastran
 - name: keyword.control.continuation.nastran
-  begin: (\+.*)$
+  begin: (\+[^0-9].*)$
   end: ^\1
 - include: '#file'
 - include: '#executive'
@@ -29,7 +29,7 @@ patterns:
 - include: '#bulk-misc'
 repository:
   file:
-    name: keyboard.file.nastran
+    name: keyword.file.nastran
     match: "ACQUIRE|ASSIGN|CONNECT|DBCLEAN|DBDIC|DBDICT|DBDIR|DBFIX|DBLOAD|DBLOCATE|DBSETDEL|DBUNLOAD|DBUPDATE|DEFINE|ENDJOB|EXPAND|INCLUDE|INIT|NASTRAN|PROJ|PROJECT|RESTART|RFINCLUDE|\
             acquire|assign|connect|dbclean|dbdic|dbdict|dbdir|dbfix|dbload|dblocate|dbsetdel|dbunload|dbupdate|define|endjob|expand|include|init|nastran|proj|project|restart|rfinclude"
   executive:
