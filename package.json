@@ -2,7 +2,7 @@
   "name": "nastran",
   "displayName": "NASTRAN",
   "description": "NASTRAN Language Support",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "publisher": "marioarbras",
   "license": "MIT",
   "icon": "images/logo.png",
